@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.header{
+    height: 150px;
+    background-color: lightseagreen;
+    font-weight: 800;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.decoration_none{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    margin: 100px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.products_content{
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+      
+}
+
+
+
+.products_block{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: calc(33% - 100px); 
+    height: 260px;
+    margin-bottom: 20px;
+    padding: 60px;
+    margin-bottom: 60px; 
+    font-size: 20px;
+    border: 1px solid black;
+  }
+
+
+.btn_decoration{
+        padding: 14px 24px;
+        margin: 8px 0px;
+        cursor: pointer;
+        
+        color: #1a1a1a;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 50px;
+}
+
+
+.stars{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.card_product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.text_card{
+    font-size: 23px;
+
+}
+
+.img_card{
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    padding: 10px;
+}
+
+
+
+
+/* .footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+} */
